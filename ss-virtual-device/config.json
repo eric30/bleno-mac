@@ -1,0 +1,14 @@
+{
+    "Device": {
+        "Name": {
+            "Unprovisioned": "SS virtual device",
+            "Provisioned": "SS.1234567890"
+        },
+        "ServiceUuids": [
+            "00010203-0405-0607-0809-aabbccddeeff"
+        ],
+        "Characteristics": [
+            "00010203040506070809cc00cc00cc00"
+        ]
+    }
+}

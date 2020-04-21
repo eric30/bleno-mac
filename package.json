@@ -16,10 +16,15 @@
     "darwin"
   ],
   "dependencies": {
+    "bleno": "github:notjosh/bleno#inject-bindings",
+    "bleno-mac": "github:notjosh/bleno-mac",
     "napi-thread-safe-callback": "0.0.6",
-    "bleno": "^0.5.0",
     "node-addon-api": "^1.1.0",
-    "node-pre-gyp": "^0.10.0"
+    "node-pre-gyp": "^0.10.0",
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+  },
+  "resolutions": {
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
